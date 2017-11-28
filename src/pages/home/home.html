@@ -1,14 +1,71 @@
 <ion-header>
   <ion-navbar>
+    <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+crossorigin="anonymous">
+<!-- or -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+crossorigin="anonymous">
     <ion-title>
-      Ionic Blank
+      Farma Itla
+
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-item>
+
+  <div class="welcome">
+    <h1>Bienvenido</h1>
+    <p>Inicie sesión y disfurta la experiencia</p>
+
+
+    <p>Details <a href=""> > </a></p>
+
+  </div>
+        </ion-item>
+              <div class="formInicioSesion">
+
+        <div class="logo">
+
+              <ion-img src="web-wallapers-014.jpg"></ion-img>
+
+        </div>
+
+                    <ion-item class="prueba" id="espacio">
+
+                                <ion-label class="labeltxt" color="primary" floating>User Name or mail</ion-label>
+                                <ion-input></ion-input>
+                      </ion-item>
+                      <ion-item class="prueba">
+                                <ion-label class="labeltxt" color="primary" floating>Password</ion-label>
+                                <ion-input type="password" ></ion-input>
+                      </ion-item>
+                              <button class="btniniciosesion"ion-button [color]="isSecondary ? 'secondary' : 'primary'"  [clear]="isClear">
+                                Iniciar sesion
+                              </button>
+                              <p>
+                                No tienes cuenta?<a href="">Registrate aquí</a>
+                              </p>
+              </div>
+      <ion-input class="prueba">HERE</ion-input>
+
+
+
+
+              <div class="referencias">
+                  <p>
+                      Puedes contactarnos en las siguientes redes sociales.
+                  </p>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <ion-icon name="logo-github"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-youtube"></ion-icon>
+              </div>
+
 </ion-content>

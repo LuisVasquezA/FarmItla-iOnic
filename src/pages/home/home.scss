@@ -1,3 +1,51 @@
 page-home {
+//background-color: blue;
+}
+//.logo {background-color: blue;
+//height: 50px;
+//text-align: center;
+//};
+
+
+.formInicioSesion{
+  text-align: center;
+}
+.btniniciosesion{
+      margin-top: 25px;
 
 }
+
+.logo{
+background-image: image("logo2-01.png");
+
+}
+.prueba{
+
+   border: 1px solid #4195fc;
+   -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+
+
+
+    /* make it glow! */
+    -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc;
+}
+
+
+.labeltxt{
+  text-align: center;
+
+
+}
+
+#espacio{
+  margin-bottom: 10px;
+}
+
+
+
+.referencias{
+text-align: center;}
