@@ -1,6 +1,11 @@
 page-home {
-//background-color: blue;
+background-color: blue;
 }
+ion-navbar{
+  background-color: blue;
+}
+
+
 //.logo {background-color: blue;
 //height: 50px;
 //text-align: center;
@@ -15,10 +20,7 @@ page-home {
 
 }
 
-.logo{
-background-image: image("logo2-01.png");
 
-}
 .prueba{
 
    border: 1px solid #4195fc;
@@ -49,3 +51,22 @@ background-image: image("logo2-01.png");
 
 .referencias{
 text-align: center;}
+
+
+.request-question{
+  text-align: left;
+  background-color: red;
+}
+.btniniciosesion{
+  width: 346px;
+}
+
+.request-input{
+
+  border: 15px;
+      border-radius: 4px 4px 4px 4px;
+      border-color: red;
+      color: white;
+      font-size: 19px;
+      background-color: white;
+}

@@ -21,7 +21,7 @@ crossorigin="anonymous">
 
   <div class="welcome">
     <h1>Bienvenido</h1>
-    <p>Inicie sesión y disfurta la experiencia</p>
+    <p>Inicia sesión y disfurta la experiencia</p>
 
 
     <p>Details <a href=""> > </a></p>
@@ -32,20 +32,35 @@ crossorigin="anonymous">
 
         <div class="logo">
 
-              <ion-img src="web-wallapers-014.jpg"></ion-img>
+              <img src="logo2-01.png" alt="logo2-01.png">
 
         </div>
+                      <h3 class="request-question">
 
-                    <ion-item class="prueba" id="espacio">
+                      User Name or mail
+                      </h3>
+                    <ion-item class="userOrmail">
 
-                                <ion-label class="labeltxt" color="primary" floating>User Name or mail</ion-label>
-                                <ion-input></ion-input>
+
+                    <ion-input class="request-input" placeholder="Enter your User name"></ion-input>
                       </ion-item>
-                      <ion-item class="prueba">
-                                <ion-label class="labeltxt" color="primary" floating>Password</ion-label>
-                                <ion-input type="password" ></ion-input>
+
+
+
+
+                      <h3 class="request-question">
+
+                      Password
+                      </h3>
+                    <ion-item class="password">
+
+"
+                    <ion-input class="request-input" placeholder="Password Here"></ion-input>
                       </ion-item>
-                              <button class="btniniciosesion"ion-button [color]="isSecondary ? 'secondary' : 'primary'"  [clear]="isClear">
+
+
+
+          <button class="btniniciosesion"ion-button [color]="isSecondary ? 'secondary' : 'primary'"  [clear]="isClear">
                                 Iniciar sesion
                               </button>
                               <p>
@@ -57,7 +72,12 @@ crossorigin="anonymous">
 
 
 
-              <div class="referencias">
+
+
+</ion-content>
+
+<ion-footer>
+  <div class="referencias">
                   <p>
                       Puedes contactarnos en las siguientes redes sociales.
                   </p>
@@ -68,4 +88,4 @@ crossorigin="anonymous">
                 <ion-icon name="logo-youtube"></ion-icon>
               </div>
 
-</ion-content>
+</ion-footer>
